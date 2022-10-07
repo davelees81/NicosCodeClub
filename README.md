@@ -1,3 +1,0 @@
-# NicosCodeClub
-
-Making a change
