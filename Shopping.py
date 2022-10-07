@@ -9,7 +9,7 @@ class RootWidget(BoxLayout) :
     outputcontent = ObjectProperty(None)
 
     def add_item(self):
-        if self.inputcontent.text = "":
+        if self.inputcontent.text != "":
             formatted = f'\n *{self.inputcontent.text}'
             self.outputcontent.items.append(formatted)
             self.outputcontent.update()

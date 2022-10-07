@@ -21,17 +21,18 @@
                 id: inputbutton
                 size_hint: 0.25, 1
                 text: 'add'
+                on_press: root.add_item()
 
             TextInput:
                 id : inputcontent
                 multiline: False 
 
     ListWidget:
+        id: outputcontent
         viewclass: 'Label'
         orientation: 'vertical'
 
         RecycleBoxLayout:
-            id: outputcontent
             default_size: None, dp(56)
             default_size_hint: 0.4, None 
             size_hint_y: None
